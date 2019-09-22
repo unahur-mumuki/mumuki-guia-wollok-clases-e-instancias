@@ -1,0 +1,3 @@
+¡`bouba` no está solo! Resulta que tiene un amigo, `kiki`. Podríamos decir que los dos son tal para cual: _¡el comportamiento de ambos es exactamente el mismo!_ :two_men_holding_hands: Es decir, no `sabeCorrer`, recibe daño de la misma forma...
+
+> Además de `bouba`, agregá otro objeto, `kiki`, que se comporte de la misma forma que él. ¡Te dejamos a `bouba` para que lo uses como inspiración! :stuck_out_tongue_winking_eye: 

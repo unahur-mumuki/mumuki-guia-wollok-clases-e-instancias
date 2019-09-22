@@ -1,0 +1,46 @@
+test "Bouba no sabe correr" {
+	assert.notThat(bouba.sabeCorrer())
+}
+
+test "Bouba tiene 100 de salud inicialmente" {
+  assert.equals(100, bouba.salud())
+}
+
+test "Si Bouba recibe 5 puntos de daño disminuye su salud en 10 puntos" {
+  bouba.recibirDanio(5)
+  assert.equals(90, bouba.salud())
+}
+
+test "Si Bouba recibe 10 puntos de daño disminuye su salud en 20 puntos" {
+  bouba.recibirDanio(10)
+  assert.equals(80, bouba.salud())
+}
+  
+test "Si Bouba recibe mucho daño su salud no puede ser menor a 0" {
+  bouba.recibirDanio(100)
+  assert.equals(0, bouba.salud())
+}
+
+test "Kiki no sabe correr" {
+	assert.notThat(kiki.sabeCorrer())
+}
+
+
+test "Kiki tiene 100 de salud inicialmente" {
+  assert.equals(100, kiki.salud())
+}
+
+test "Si Kiki recibe 5 puntos de daño disminuye su salud en 10 puntos" {
+  kiki.recibirDanio(5)
+  assert.equals(90, kiki.salud())
+}
+
+test "Si Kiki recibe 10 puntos de daño disminuye su salud en 20 puntos" {
+  kiki.recibirDanio(10)
+  assert.equals(80, kiki.salud())
+}
+  
+test "Si Kiki recibe mucho daño su salud no puede ser menor a 0" {
+  kiki.recibirDanio(100)
+  assert.equals(0, kiki.salud())
+}
