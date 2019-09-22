@@ -1,0 +1,1 @@
+Hasta ahora estuvimos jugando con objetos autodefinidos, como `pepita`. Pero `bouba` y `celularDeMaria` son constantes que declaramos en el momento: en particular, son referencias que apuntan a **instancias** de las clases `Zombi` y `Celular`.
