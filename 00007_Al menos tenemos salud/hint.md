@@ -1,0 +1,1 @@
+¡Recordá que el mensaje `atacar` recibe un parámetro: un zombie.
