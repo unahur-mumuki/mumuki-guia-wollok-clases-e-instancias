@@ -4,6 +4,8 @@ Consideremos este código:
 var bouba = new Zombi()
 var kiki = new Zombi()
 juliana.atacar(bouba)
+juliana.atacar(kiki)
+juliana.atacar(bouba)
 ```
 
 donde `juliana` tiene la energía inicial de 100.

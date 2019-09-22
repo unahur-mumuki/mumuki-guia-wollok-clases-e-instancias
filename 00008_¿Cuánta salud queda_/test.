@@ -1,4 +1,4 @@
 test "cómo queda la salud" {
-  assert.equals(80, energiaDeBoubaAlFinal)
-  assert.equals(100, energiaDeKikiAlFinal)
+  assert.equals(60, energiaDeBoubaAlFinal)
+  assert.equals(80, energiaDeKikiAlFinal)
 }
