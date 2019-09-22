@@ -31,4 +31,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Todas
   checked: false
-name: Nuevo ejercicio
+name: Cargando la invasión
