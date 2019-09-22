@@ -1,0 +1,34 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: true
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ninguna
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Solamente la primera
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Solamente la segunda
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Solamente la tercera
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las dos primeras
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: La primera y la tercera
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Las dos últimas
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Todas
+  checked: false
+name: Nuevo ejercicio
